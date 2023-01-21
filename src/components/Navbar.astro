@@ -1,36 +1,46 @@
-<div class="container">
-  <div>
+<div class="barra">
+  <a href="/">
     <img
       id="logo"
-      src="../../public/CyC_SERVICIOs.png"
+      src="/CyC_SERVICIOs.png"
       alt="logo cyc servicios catastrales"
     />
-  </div>
+  </a>
   <nav class="navbar">
-    <a href="#">Acerca</a>
-    <a href="#">Servicios</a>
+    <a href="acercaDe">Acerca</a>
+    <a href="servicios">Servicios</a>
     <a href="#">Contacto</a>
   </nav>
 </div>
 
 <style>
-  .container {
+  .barra {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: black;
+    /* background-color: black; */
+    padding-top: 1rem;
   }
   #logo {
     height: 5rem;
     padding-left: 1rem;
+    border-radius: 50% 20% / 10% 40%;
   }
   .navbar > a {
     color: white;
     text-decoration: none;
     font-size: 1rem;
     margin-right: 1.5rem;
+    transition-property: font-size;
+    transition-duration: 0.7s;
+    
   }
   a:last-of-type {
     margin-right: 1;
+  }
+  a:hover{
+    color: #ece448;
+    text-decoration:underline;
+    font-size: 1.05rem;    
   }
 </style>
