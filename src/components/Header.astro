@@ -3,10 +3,12 @@ import Navbar from "./Navbar.astro"
 ---
 <div class="container">
     <Navbar/>
-    <h1>Cyc Servicios Catastrales</h1>
+    <h1>C&C Servicios Catastrales</h1>
+    <button>ver mas</button>
     <h3>Soluciones inteligentes a los probelmas de gobernanza del territorio</h3>
 </div>
 <style>
+    @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
     .container{
         background-image: url(/header.jpg);
         background-position: center center ;
@@ -19,9 +21,18 @@ import Navbar from "./Navbar.astro"
     h1 {
         color: rgb(253, 255, 198);
         text-align: center;
+        font-family: 'Libre Baskerville', serif;
+        text-transform: capitalize;
+
     }
     h3{
         color: rgb(253, 255, 198);
         text-align: center;
     }
+    button{
+        width: 5rem;
+        margin: 0 auto;
+    }
+
+    
 </style>
