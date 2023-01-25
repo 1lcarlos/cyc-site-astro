@@ -1,9 +1,10 @@
 ---
-
+import '../styles/Layout.css'
 import Header from "../components/Header.astro";
 import Acerca from "../components/Acerca.astro";
 import Separador from "../components/Separador.astro";
 import Servicios from "../components/Servicios.astro";
+import Contacto from "../components/Contacto.astro";
 
 
 ---
@@ -22,6 +23,8 @@ import Servicios from "../components/Servicios.astro";
     <Acerca/>
     <Separador/>
     <Servicios/>
+    <Separador/>
+    <Contacto/>
 
   </body>
 </html>
@@ -29,9 +32,6 @@ import Servicios from "../components/Servicios.astro";
   *,
   *::before,
   *::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
     background-color:#050125;
   }
 </style>
