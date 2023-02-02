@@ -1,0 +1,63 @@
+---
+import Card from "./card.astro";
+---
+
+<main>
+  <h2 class="text-3xl">Servicios</h2>
+  <h2 class="text-2xl my-5">Catastro</h2>
+  <article class="flex flex-col items-center lg:flex lg:flex-row lg:justify-around lg:items-stretch">
+    <Card
+      title="Avaluos Propiedades Planta y Equipo"
+      img="/cyc-site-astro/avaluo_icon.svg"
+    />
+    <Card
+      title="Tramites Notariales y Registrales"
+      img="/cyc-site-astro/tramites_nyr_icon.svg"
+    />
+    <Card
+      title="Englobes y Desenglobes"
+      img="/cyc-site-astro/englobes_icon.svg"
+    />
+    <Card
+      title="Levantamientos Topograficos"
+      img="/cyc-site-astro/topografia_icon.svg"
+    />
+    <Card title="Ventas de Inmuebles" img="/cyc-site-astro/ventas_icon.svg" />
+  </article>
+  <h2 class="text-2xl my-5">Soluciones Geoespaciales</h2>
+  <article class="flex flex-col items-center lg:flex lg:flex-row lg:justify-around lg:items-stretch">
+    <Card
+      title="Desarrollo de Aplicativos Web y Móviles"
+      img="/cyc-site-astro/desarrollo_icon.svg"
+    />
+    <Card
+      title="Gestión de Datos Geográficos"
+      img="/cyc-site-astro/geografia_icon.svg"
+    />
+    <Card
+      title="Análisis de Datos y ETL- Extract Transform and Load"
+      img="/cyc-site-astro/analisis_icon.svg"
+    />
+    <Card
+      title="Estructuración de Bases de Datos-Modelo LADM-COL"
+      img="/cyc-site-astro/Bases_icon.svg"
+    />
+    <Card
+      title="Sensores Remotos e Interpretacion de Imagenes"
+      img="/cyc-site-astro/sensores_icon.svg"
+    />
+  </article>
+</main>
+
+<style>
+  .contenedor-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 45px;
+  }
+  h2 {
+    color: white;
+    text-align: center;
+  }
+</style>
