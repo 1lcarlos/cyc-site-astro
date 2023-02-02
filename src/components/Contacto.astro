@@ -1,29 +1,28 @@
 <h2>Contacto</h2>
-<div class="contenedor-main">
-  <img src="" alt="" />
+<div class="flex flex-col items-center lg:flex lg:flex-row lg:justify-around lg:items-stretch">
+  
   <div class="contenedor-info">
     <img src="/cyc-site-astro/whatsapp_icon.svg" alt="" />
     <p>Numeros telefonicos: 3152201117 - 322 7261940</p>
   </div>
   <div class="contenedor-info">
     <img src="/cyc-site-astro/gmail_icon.svg" alt="" />
-    <p>email</p>
+    <p>cycservicioscatastrales@gmail.com</p>
   </div>
   <div class="contenedor-info">
-    <img src="/cyc-site-astro/facebook_icon.svg" alt="" />
-    <p>Facebook</p>
+    <a href="https://www.facebook.com/CC-Servicios-Catastrales-SAS-106667389000846">
+      <img src="/cyc-site-astro/facebook_icon.svg" alt="" />
+    </a>
+    
+    <p>C&C Servicios Catastrales</p>
   </div>
   <div class="contenedor-info">
     <img src="/cyc-site-astro/linkedin_icon.svg" alt="" />
-    <p>LinkedIn</p>
+    <p>C&C Servicios Catastrales</p>
   </div>
 </div>
 
-<style>
-    .contenedor-main{
-        display: flex;
-        justify-content: center;
-    }
+<style>    
     .contenedor-info{
         display: flex;
         justify-content: space-between;
@@ -32,6 +31,13 @@
         margin-right: 10px;
     }
     .contenedor-info > img{
+        background-color: white;
+        border-radius: 30px;
+        width: 55px;
+        padding: 8px;
+        margin-right: 10px;
+    }
+    .contenedor-info > a{
         background-color: white;
         border-radius: 30px;
         width: 55px;
